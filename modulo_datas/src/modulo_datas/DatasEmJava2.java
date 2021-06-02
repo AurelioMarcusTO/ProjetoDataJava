@@ -15,10 +15,20 @@ public class DatasEmJava2 {
 		calendar.setTime(new SimpleDateFormat("dd-MM-yyyy").parse("10-03-2021")); /*Definindo uma data qualquer*/ 
 		
 		
-		calendar.add(Calendar.DAY_OF_MONTH, 5);
+		calendar.add(Calendar.DAY_OF_MONTH, 40);
+		
+		System.out.println("Somando o dia : " + new SimpleDateFormat("dd-MM-yyyy").format(calendar.getTime()));
+		
+		calendar.add(Calendar.MONTH, 1);
+		
+		System.out.println("Somando um mes : " + new SimpleDateFormat("dd-MM-yyyy").format(calendar.getTime()));
+		
+		calendar.add(Calendar.YEAR, 1);
+		
+		System.out.println("Somando um ano : " + new SimpleDateFormat("dd-MM-yyyy").format(calendar.getTime()));
 		
 		
-
+		
 	}
 
 }
