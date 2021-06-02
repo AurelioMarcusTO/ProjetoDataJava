@@ -4,7 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class DatasEmJava2 {
+public class DatasEmJavaCalendar {
 
 	public static void main(String[] args) throws ParseException {
 		
